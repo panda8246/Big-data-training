@@ -1,5 +1,6 @@
 package Test;
 
+import base.DatabaseConnect;
 import com.google.gson.Gson;
 import com.mysql.cj.xdevapi.SqlStatement;
 
@@ -9,14 +10,9 @@ import java.util.ArrayList;
 public class MysqlTest {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        String url = "jdbc:mysql://127.0.0.1:3306/web_log_view";
-        String user = "root";
-        String  password = "131420";
-        // 链接数据库
-        Connection connection = DriverManager.getConnection(url, user, password);
+        DatabaseConnect databaseConnect = DatabaseConnect.getInstance();
         // 创建sql语句处理
-        Statement statement = connection.createStatement();
+        Statement statement = databaseConnect.getStatement();
         String sql = "SELECT * FROM t_avgpv_num";
         ResultSet resultSet = statement.executeQuery(sql);
         ArrayList<WebLogModel> models = new ArrayList<WebLogModel>();

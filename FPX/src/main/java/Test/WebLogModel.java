@@ -1,7 +1,7 @@
 package Test;
 
 /**
- * MOdle层
+ * Modle层
  */
 public class WebLogModel {
 

@@ -6,12 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="" />
+    <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/DatabaseConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FPX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FPX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/MysqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/MysqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test/WebLogModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/WebLogModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/WebLogModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/WebLogModel.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FPX" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -35,11 +50,13 @@
     </option>
   </component>
   <component name="ProjectId" id="20fGvI9JNau4UJQUKQYlZVBwKSI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20588236" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
@@ -242,10 +259,25 @@
       <workItem from="1636451826862" duration="1220000" />
       <workItem from="1636468422733" duration="1575000" />
       <workItem from="1636470126540" duration="2074000" />
+      <workItem from="1636503564274" duration="253000" />
+      <workItem from="1636503831448" duration="4095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
