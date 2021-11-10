@@ -35,9 +35,10 @@ public class DatabaseConnect {
     private void Connect() {
 
         try {
+            //注册类
             Class.forName("com.mysql.cj.jdbc.Driver");
         }catch (ClassNotFoundException e){
-            System.out.println("Can't load the Database driver!");
+            e.printStackTrace();
         }
 
         try {
@@ -46,7 +47,7 @@ public class DatabaseConnect {
             // 创建sql语句处理
             statement = connection.createStatement();
         }catch (SQLException sqle){
-            System.out.println("Can't connect to Database!");
+            sqle.printStackTrace();
         }
     }
 

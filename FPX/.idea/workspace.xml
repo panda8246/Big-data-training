@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web_log_view/WebLogViewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FPX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FPX.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/testEcharts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/weblog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/DatabaseConnect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/Test/MysqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/Test/MysqlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/testEcharts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/DatabaseConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/DatabaseConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/weblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/weblog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/weblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/weblog.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../web_log_view_teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20588236" />
@@ -260,7 +258,8 @@
       <workItem from="1636468422733" duration="1575000" />
       <workItem from="1636470126540" duration="2074000" />
       <workItem from="1636503564274" duration="253000" />
-      <workItem from="1636503831448" duration="6841000" />
+      <workItem from="1636503831448" duration="7846000" />
+      <workItem from="1636526615198" duration="4761000" />
     </task>
     <servers />
   </component>
