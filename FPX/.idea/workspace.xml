@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/META-INF/FPX.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/Test/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/Test/MysqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/Test/MysqlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/base/DatabaseConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/base/DatabaseConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/web_log_view/WebLogViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/classes/web_log_view/WebLogViewServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/js/echarts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX-1.0-SNAPSHOT/js/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FPX/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FPX.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/MysqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/MysqlTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/DatabaseConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/DatabaseConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web_log_view/WebLogViewServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web_log_view/WebLogViewServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,10 +159,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="FPX:war exploded" />
         </option>
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.21" ALTERNATIVE_JRE_ENABLED="false">
@@ -281,6 +262,7 @@
       <workItem from="1636526615198" duration="6549000" />
       <workItem from="1636590305824" duration="4633000" />
       <workItem from="1636612038950" duration="672000" />
+      <workItem from="1636612822957" duration="406000" />
     </task>
     <servers />
   </component>
