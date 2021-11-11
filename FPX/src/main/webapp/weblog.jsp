@@ -70,5 +70,124 @@
 
 
     </script>
+
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main2" style="width: 1000px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart2 = echarts.init(document.getElementById('main2'));
+        // 指定图表的配置项和数据
+        option2 = {
+
+        };
+        //ajax异步请求
+        $.ajax({
+            type: "post",
+            url: "<%=basePath%>/flownum",
+            datatype: "json",
+            success: function (data) {
+                myChart2.setOption({
+                    title: {
+                        text: 'Flow Num'
+                    },
+                    tooltip: {
+                        trigger: 'axis',
+                        axisPointer: {
+                            type: 'cross',
+                            label: {
+                                backgroundColor: '#6a7985'
+                            }
+                        }
+                    },
+                    legend: {
+                        data: ['pVNum', 'uVNum', 'iPNum', 'newUvNum', 'visitNum']
+                    },
+                    toolbox: {
+                        feature: {
+                            saveAsImage: {}
+                        }
+                    },
+                    grid: {
+                        left: '3%',
+                        right: '4%',
+                        bottom: '3%',
+                        containLabel: true
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: data.dates
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value'
+                        }
+                    ],
+                    series: [
+                        {
+                            name: 'pVNum',
+                            type: 'line',
+                            stack: 'Total',
+                            areaStyle: {},
+                            emphasis: {
+                                focus: 'series'
+                            },
+                            data: data.pVNum
+                        },
+                        {
+                            name: 'uVNum',
+                            type: 'line',
+                            stack: 'Total',
+                            areaStyle: {},
+                            emphasis: {
+                                focus: 'series'
+                            },
+                            data: data.uVNum
+                        },
+                        {
+                            name: 'iPNum',
+                            type: 'line',
+                            stack: 'Total',
+                            areaStyle: {},
+                            emphasis: {
+                                focus: 'series'
+                            },
+                            data: data.iPNum
+                        },
+                        {
+                            name: 'newUvNum',
+                            type: 'line',
+                            stack: 'Total',
+                            areaStyle: {},
+                            emphasis: {
+                                focus: 'series'
+                            },
+                            data: data.newUvNum
+                        },
+                        {
+                            name: 'visitNum',
+                            type: 'line',
+                            stack: 'Total',
+                            label: {
+                                show: true,
+                                position: 'top'
+                            },
+                            areaStyle: {},
+                            emphasis: {
+                                focus: 'series'
+                            },
+                            data: data.visitNum
+                        }
+                    ]
+
+                })
+            }
+        })
+
+
+    </script>
+
 </body>
 </html>
