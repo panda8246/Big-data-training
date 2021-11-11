@@ -7,7 +7,7 @@ import java.sql.ResultSet;
  */
 public interface DatabaseBase {
 
-    public ResultSet ExcuteSQL(String sql);
+    public ResultSet QuerySQL(String sql);
 
     public ResultSet SelectAll(String tableName);
 

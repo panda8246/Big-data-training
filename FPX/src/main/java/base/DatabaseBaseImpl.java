@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class DatabaseBaseImpl implements DatabaseBase {
 
     @Override
-    public ResultSet ExcuteSQL(String sql) {
+    public ResultSet QuerySQL(String sql) {
         Statement statement = DatabaseConnect.getInstance().getStatement();
         ResultSet resultSet = null;
         try {
@@ -21,6 +21,6 @@ public class DatabaseBaseImpl implements DatabaseBase {
     @Override
     public ResultSet SelectAll(String tableName) {
         String sql = "SELECT * FROM " + tableName;
-        return ExcuteSQL(sql);
+        return QuerySQL(sql);
     }
 }

@@ -23,30 +23,9 @@ public class WebLogViewServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        DatabaseBase operate = new DatabaseBaseImpl();
+        WebLogDao dao = new WebLogDao();
 
-        //执行sql语句得到返回数据
-        ResultSet resultSet = null;
-        ArrayList<WebLogModel> models = new ArrayList<>();
-        try {
-            resultSet = operate.SelectAll("t_avgpv_num");
-            while(resultSet.next()){
-                WebLogModel model = new WebLogModel(resultSet.getString("id"), resultSet.getString("dateStr"), resultSet.getFloat("avgPvNum"));
-                models.add(model);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        //数据转为json
-        ArrayList<String> dates = new ArrayList<>();
-        ArrayList<Float> data = new ArrayList<>();
-        for(WebLogModel m : models) {
-            dates.add(m.getDataStr());
-            data.add(m.getAvgPvNum());
-        }
-        WebLogGojo webgojo = new WebLogGojo(dates, data);
-        String json = ToJson.Conver(webgojo);
+        String json = dao.ModlesToJson(dao.SelectAll());
 
         //将数据返回给前端
         resp.setContentType("text/json");
