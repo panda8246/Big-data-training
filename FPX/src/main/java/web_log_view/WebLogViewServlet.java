@@ -1,9 +1,9 @@
 package web_log_view;
 
-import Test.WebLogGojo;
-import Test.WebLogModel;
+import base.DatabaseBase;
+import base.DatabaseBaseImpl;
 import base.DatabaseConnect;
-import com.google.gson.Gson;
+import base.ToJson;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -23,17 +23,13 @@ public class WebLogViewServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //获取数据库连接
-        DatabaseConnect databaseConnect = DatabaseConnect.getInstance();
-        // 创建sql语句处理
-        Statement statement = databaseConnect.getStatement();
-        String sql = "SELECT * FROM t_avgpv_num";
+        DatabaseBase operate = new DatabaseBaseImpl();
 
         //执行sql语句得到返回数据
         ResultSet resultSet = null;
         ArrayList<WebLogModel> models = new ArrayList<>();
         try {
-            resultSet = statement.executeQuery(sql);
+            resultSet = operate.SelectAll("t_avgpv_num");
             while(resultSet.next()){
                 WebLogModel model = new WebLogModel(resultSet.getString("id"), resultSet.getString("dateStr"), resultSet.getFloat("avgPvNum"));
                 models.add(model);
@@ -49,9 +45,8 @@ public class WebLogViewServlet extends HttpServlet {
             dates.add(m.getDataStr());
             data.add(m.getAvgPvNum());
         }
-        Gson gson = new Gson();
         WebLogGojo webgojo = new WebLogGojo(dates, data);
-        String json = gson.toJson(webgojo);
+        String json = ToJson.Conver(webgojo);
 
         //将数据返回给前端
         resp.setContentType("text/json");

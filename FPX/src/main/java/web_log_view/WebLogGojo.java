@@ -1,4 +1,4 @@
-package Test;
+package web_log_view;
 
 import java.util.ArrayList;
 

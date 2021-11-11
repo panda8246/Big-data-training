@@ -1,4 +1,4 @@
-package Test;
+package web_log_view;
 
 /**
  * Modle层

@@ -2,7 +2,8 @@ package Test;
 
 import base.DatabaseConnect;
 import com.google.gson.Gson;
-import com.mysql.cj.xdevapi.SqlStatement;
+import web_log_view.WebLogGojo;
+import web_log_view.WebLogModel;
 
 import java.sql.*;
 import java.util.ArrayList;
