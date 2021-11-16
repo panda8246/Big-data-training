@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test/HelloMybatis/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/HelloMybatis/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/HelloMybatis/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test/HelloMybatis/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test/HelloMybatis/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +303,7 @@
       <workItem from="1636676992498" duration="3971000" />
       <workItem from="1636938128832" duration="4803000" />
       <workItem from="1636957978257" duration="2796000" />
-      <workItem from="1637022652314" duration="2590000" />
+      <workItem from="1637022652314" duration="3975000" />
     </task>
     <servers />
   </component>
