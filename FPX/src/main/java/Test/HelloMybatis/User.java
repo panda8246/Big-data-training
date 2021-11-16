@@ -13,6 +13,9 @@ public class User {
     }
 
     public User() {
+        Id = 0;
+        name = null;
+        age = null;
     }
 
     public Integer getId() {

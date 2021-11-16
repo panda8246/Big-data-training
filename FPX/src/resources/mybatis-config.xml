@@ -3,17 +3,27 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
+
 <configuration>
+
+    <!--通过properties标签加载外部properties文件-->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--自定义别名-->
+    <typeAliases>
+        <typeAlias type="Test.HelloMybatis.User" alias="user"></typeAlias>
+    </typeAliases>
+
     <!-- 环境配置 -->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
             <!-- 数据库连接相关配置 ,这里动态获取config.properties文件中的内容-->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis" />
-                <property name="username" value="root" />
-                <property name="password" value="131420" />
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}?characterEncoding=UTF-8"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
