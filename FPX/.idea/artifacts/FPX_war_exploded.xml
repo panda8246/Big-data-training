@@ -24,6 +24,12 @@
           <element id="library" level="project" name="Maven: org.testng:testng:7.4.0" />
           <element id="library" level="project" name="Maven: com.beust:jcommander:1.78" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:3.5.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.13.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

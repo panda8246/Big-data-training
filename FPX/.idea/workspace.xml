@@ -7,7 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdeba4fd-941d-437b-939b-114902ed29ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Spring/MesPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Spring/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Spring/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FPX_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FPX_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="20fGvI9JNau4UJQUKQYlZVBwKSI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,18 +61,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20588236" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="base" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MGSD\Project\FPX\src\main\webapp\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MGSD\Project\Final\FPX\src\main\webapp\js" />
       <recent name="E:\MGSD\Project\FPX\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MGSD\Project\FPX\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.DynamicProxy">
+  <component name="RunManager" selected="JUnit.TestSpring.Test">
     <configuration name="MysqlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.MysqlTest" />
       <module name="FPX" />
@@ -89,6 +97,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FPX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test.Spring" />
+      <option name="MAIN_CLASS_NAME" value="Test.Spring.TestSpring" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,11 +287,13 @@
     <list>
       <item itemvalue="Application.MysqlTest" />
       <item itemvalue="JUnit.UserTest.FindById" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.21" />
       <item itemvalue="JUnit.UserTest.DynamicProxy" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.21" />
+      <item itemvalue="JUnit.TestSpring.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSpring.Test" />
         <item itemvalue="JUnit.UserTest.DynamicProxy" />
         <item itemvalue="JUnit.UserTest.FindById" />
         <item itemvalue="Application.MysqlTest" />
@@ -303,7 +329,8 @@
       <workItem from="1636676992498" duration="3971000" />
       <workItem from="1636938128832" duration="4803000" />
       <workItem from="1636957978257" duration="2796000" />
-      <workItem from="1637022652314" duration="3975000" />
+      <workItem from="1637022652314" duration="6992000" />
+      <workItem from="1637109066671" duration="6345000" />
     </task>
     <servers />
   </component>
@@ -322,19 +349,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/Test/HelloMybatis/UserTest.java</url>
-          <line>43</line>
-          <properties class="Test.HelloMybatis.UserTest" method="DynamicProxy">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

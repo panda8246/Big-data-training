@@ -55,17 +55,27 @@
       <artifactId>mybatis</artifactId>
       <version>3.3.0</version>
     </dependency>
+
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>RELEASE</version>
       <scope>compile</scope>
     </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>compile</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+    <!--spring的核心依赖-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.3.13.RELEASE</version>
     </dependency>
 
 
